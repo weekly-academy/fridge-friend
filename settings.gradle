@@ -1,1 +1,8 @@
+pluginManagement {
+    plugins {
+        id 'org.springframework.boot' version "${springframeworkbootPluginVersion}"
+        id 'io.spring.dependency-management' version "${springdependencymanagementPluginVersion}"
+    }
+}
+
 rootProject.name = 'fridge-friend'
